@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    color: orange;
+    margin-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+section{
+    height: 40rem;
+}
+
+.hero_section{
+    background-image: url('../images/top-banner.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.highlight{
+    color: #86A8E7;
+}
+
+.underline{
+    font-family: cursive;
+    color: #D16BA5;
+    text-decoration: underline;
+}
+
+.text_portion{
+    /* float: left;
+    width: 40%;
+    margin-left: 5%; */
+    flex: 0 0 40%;
+
+}
+
+.text_portion h1{
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.text_portion h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.text_portion p{
+    text-align: justify;
+    color: darkgray;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    color: #fff;
+    background-color: deeppink;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    transition: all .3s ease;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.image_portion{
+    /* float: left;
+    width: 40%;
+    margin-left: 5%; */
+    flex: 0 0 40%;
+}
+.image_portion img{
+    width: 100%;
+}
+
+.skills{
+    background-image: url('../images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience{
+    margin-top: 2rem;
+    background-image: url('../images/exp-bg.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+.single_experience{
+    box-shadow: 10px 10px 40px grey;
+    height: 70%;
+    padding: 2%;
+    transition: all .3s ease;
+}
+
+.single_experience:hover{
+    transform: scale(1.1);
+}
+
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon, orange);
+    border-image-slice: 1;
+}
+
+#baby_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(122, 255, 255), rgb(224, 71, 255));
+    border-image-slice: 1;
+}
+
+footer{
+    margin-bottom: 1rem;
+}
+footer p{
+    text-align: center;
+    font-size: .8rem;
+    color: rgb(169, 169, 169);
+    
+}
